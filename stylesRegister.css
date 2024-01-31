@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+  }
+  
+  .register {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background: rgba(4, 29, 23, 0.5);
+    padding: 50px;
+    width: 270px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 15px;
+  }
+  
+  .avatar {
+    font-size: 30px ;
+    background: #E59866;
+    width: 50px;
+    height: 40px;
+    line-height: 50%;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .register h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+  }
+  
+  .box-register {
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+  }
+  
+  .box-register i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+  }
+  
+  .box-register input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box-register input::placeholder {
+    color: white;
+    font-size: 10px;
+  }
+  
+  .box-register input:hover{
+    background: rgba(10, 10, 10,s 0.5);
+  }
+  
+  .box-register select {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+    opacity: 0.8;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box-register select::placeholder {
+    color: transparent;
+    font-size: 10px;
+  }
+  
+  .box-register select:hover{
+    background: rgba(10, 10, 10, 0.5);
+  }
+  
+  .box-register select option{
+      background-color: gray;
+  }
+  
+  .btn-register{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-register:hover{
+    background: rgba(12, 30, 15, 0.5);
+  }
+  
+  .bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .bottom a:hover {
+  text-decoration: underline;
+  }
+  
+  .sign {
+      text-align: center;
+      padding: 10px 0;
+      color: #fff;
+      transform: translate(-3%, 800%)
+  }
